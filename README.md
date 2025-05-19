@@ -1,84 +1,62 @@
-📌 DTR Management System (Lechon Organization)
-This is a web-based Daily Time Record (DTR) Management System developed using PHP, MySQL, Bootstrap, CSS, and JavaScript. The system is designed specifically for lechon organizations to efficiently manage staff attendance and automate record-keeping. It features two user roles: Admin and Staff.
+# 📌 DTR Management System (Lechon Organization)
 
-✅ Features
-👨‍💼 Admin
-Dashboard overview
+A **web-based Daily Time Record (DTR) Management System** built using **PHP, MySQL, Bootstrap, CSS, and JavaScript**, tailored specifically for **Lechon organizations**. This system automates attendance tracking and streamlines time record management with role-based access for **Admin** and **Staff** users.
 
-Manage staff accounts
+---
 
-View, edit, and delete attendance records
+## 🔐 User Roles
 
-Generate daily/weekly/monthly attendance reports
+### 👨‍💼 Admin
+- 📊 Dashboard overview
+- 👥 Manage staff accounts
+- 📄 View, edit, delete attendance records
+- 📅 Generate attendance reports (Daily, Weekly, Monthly)
+- ⏱️ Set and update time-in/time-out rules
 
-Manage time-in/time-out rules
+### 👷 Staff
+- 🕒 Time-in / Time-out logging
+- 📜 View personal DTR history
+- ✏️ Edit own profile
 
-👷 Staff
-Log in/out (Time-in / Time-out)
+---
 
-View personal attendance history
+## 🛠️ Tech Stack
 
-Update profile information
+| Tech        | Description             |
+|-------------|-------------------------|
+| **PHP**     | Backend scripting       |
+| **MySQL**   | Relational database     |
+| **Bootstrap** | Responsive UI design |
+| **CSS3/JS** | Styling & Interactivity |
+| **HTML5**   | Page structure          |
 
-🛠️ Technologies Used
-PHP - Backend scripting
+---
 
-MySQL - Database
-
-Bootstrap 5 - UI styling
-
-CSS3 & JavaScript - Client-side behavior
-
-HTML5 - Structure
-
-🗃️ Database Schema (MySQL)
-Tables:
-
-users (id, name, email, password, role)
-
-attendance (id, user_id, date, time_in, time_out, status)
-
-🚀 Installation
-Clone the project
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/lechon-dtr-system.git
-Import the SQL file
-
-Open phpMyAdmin
-
-Create a database dtr_system
-
-Import the provided dtr_system.sql file
-
-Configure Database
-
-In /config/db.php, update:
-
-php
-Copy
-Edit
-$host = 'localhost';
-$dbname = 'dtr_system';
-$username = 'root';
-$password = '';
-Run the system
-
-Open your browser and go to:
-
-perl
-Copy
-Edit
-http://localhost/lechon-dtr-system/
-🔑 Default Credentials
-Role	Email	Password
-Admin	admin@lechon.com	admin123
-Staff	staff@lechon.com	staff123
+## 🚀 Installation Guide
 
 ## 📸 Preview
 
-![Form Preview](image.png)
+![Form Preview](pic.png)
+
+---
+![Form Preview](pic1.png)
+
+---
+![Form Preview](pic2.png)
+
+---
+![Form Preview](pic3.png)
+
+---
+![Form Preview](pic4.png)
+
+---
+![Form Preview](pic5.png)
+
+---
+![Form Preview](pic6.png)
+
+---
+![Form Preview](pic7.png)
 
 ---
